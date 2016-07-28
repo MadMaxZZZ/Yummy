@@ -33,7 +33,10 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-<%= yield %>
+<div class="pagination" text-center>
+  <%= paginate @places %>
+</div>
 
+<%= yield %>
 </body>
 </html>
