@@ -33,6 +33,8 @@ gem 'sprockets' , '2.11.0'
 gem 'kaminari'
 gem 'simple_form'
 gem 'devise', '>3.2.4'
+gem 'geocoder', '1.3.4'
+gem 'figaro', '>=1.0.0'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
