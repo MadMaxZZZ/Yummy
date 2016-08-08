@@ -123,11 +123,14 @@
 <div class="col-xs-10 col-xs-offset-1">
 <h1 class="pull-left">Pictures</h1>
 </div>
+<br /><br />
 
 
 <% @place.photos.each do |photo| %>
-  <div class="col-xs-12 col-sm-6">
+  <div class="col-xs-12%">
+    <img>
     <%= image_tag photo.picture %>
+    </img>
   </div>
 <% end %>
 

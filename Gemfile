@@ -36,6 +36,7 @@ gem 'devise', '>3.2.4'
 gem 'geocoder', '1.3.4'
 gem 'figaro', '>=1.0.0'
 gem 'carrierwave'
+gem 'fog'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
